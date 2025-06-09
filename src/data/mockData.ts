@@ -3,17 +3,17 @@ import { User, Project, Task, ActivityLog } from '../types';
 export const mockUsers: User[] = [
   {
     id: '1',
-    name: 'Sarah Johnson',
+    name: 'Amarpal',
     email: 'admin@projectflow.com',
     role: 'admin',
-    avatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200',
+    avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600',
     department: 'Management',
     joinDate: '2023-01-15',
     lastActive: new Date().toISOString(),
   },
   {
     id: '2',
-    name: 'Michael Chen',
+    name: 'Amit Sangwan',
     email: 'michael@projectflow.com',
     role: 'team_member',
     avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200',
@@ -23,7 +23,7 @@ export const mockUsers: User[] = [
   },
   {
     id: '3',
-    name: 'Emily Rodriguez',
+    name: 'Priya Sharma',
     email: 'emily@projectflow.com',
     role: 'team_member',
     avatar: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200',
@@ -33,7 +33,7 @@ export const mockUsers: User[] = [
   },
   {
     id: '4',
-    name: 'David Kim',
+    name: 'Deven',
     email: 'david@projectflow.com',
     role: 'team_member',
     avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=200',
@@ -43,7 +43,7 @@ export const mockUsers: User[] = [
   },
   {
     id: '5',
-    name: 'Lisa Thompson',
+    name: 'Anushka',
     email: 'lisa@projectflow.com',
     role: 'team_member',
     avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200',
